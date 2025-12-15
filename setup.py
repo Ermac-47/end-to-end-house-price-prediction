@@ -22,7 +22,7 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPHEN_E_DOT)
     return requirements        
 setup(
-    name='dsprojects',
+    name='house_price_predictions',
     version='0.0.1',
     author='Ermac',
     author_email='eshaanuddinkhan@gmail.com',

@@ -11,8 +11,9 @@ class PredictPipeline:
     def predict(self,features):
         try:
 
-            model_path='artifacts\model.pkl'
-            preprocessor_path='artifacts\preprocessor.pkl'
+            model_path = os.path.join("artifacts", "model.pkl")
+            preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
+
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
             data_scaled=preprocessor.transform(features)
@@ -41,8 +42,7 @@ class CustomData:
                  tax:int,
                  ptratio:float,
                  b:float,
-                 lstat:float,	
-                 medv:float):
+                 lstat:float):
         
         self.crim = crim
         self.zn = zn
@@ -57,7 +57,6 @@ class CustomData:
         self.ptratio = ptratio
         self.b = b
         self.lstat = lstat
-        self.medv = medv
 
     def get_data_as_df(self):
         try:
@@ -75,7 +74,7 @@ class CustomData:
                 "ptratio": [self.ptratio],
                 "b": [self.b],
                 "lstat": [self.lstat],
-                "medv": [self.medv],
+                
             }
             return pd.DataFrame(custom_data_input_dict)
         except Exception as e:

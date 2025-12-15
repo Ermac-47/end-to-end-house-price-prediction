@@ -34,8 +34,7 @@ def predict_datapoint():
     tax=int(request.form.get('tax')),
     ptratio=float(request.form.get('ptratio')),
     b=float(request.form.get('b')),
-    lstat=float(request.form.get('lstat')),
-    medv=float(request.form.get('medv'))
+    lstat=float(request.form.get('lstat'))
     )
     pred_df=data.get_data_as_df()
     print(pred_df)
@@ -45,4 +44,4 @@ def predict_datapoint():
     return render_template('home.html',results=results[0])
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)

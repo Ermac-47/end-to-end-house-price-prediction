@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+venv/
 # C extensions
 *.so
 
@@ -192,3 +192,34 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Artifacts (optional: keep locally, not in git)
+artifacts/*.pkl
+artifacts/*.csv
+
+# Logs
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Egg info
+*.egg-info/
