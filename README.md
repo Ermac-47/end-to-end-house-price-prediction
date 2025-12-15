@@ -1,15 +1,15 @@
 # 🏠 End-to-End House Price Prediction Using Machine Learning
-📌 Project Overview
+## 📌 Project Overview
 
 - This project is an end-to-end machine learning application that predicts house prices based on key housing and neighborhood features.
 - It covers the entire ML lifecycle — from data ingestion and preprocessing to model training, evaluation, and deployment using a Flask web application.
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 - Accurately estimating house prices is critical for buyers, sellers, and real estate analysts.
 - This project aims to build a robust machine learning model that predicts housing prices using structured data and serves predictions through a user-friendly web interface.
 
-🧠 Solution Approach
+## 🧠 Solution Approach
 
 - Performed exploratory data analysis (EDA) on housing data
 
@@ -23,7 +23,7 @@
 
 - Deployed the prediction pipeline using Flask
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 ### Programming Language
 
@@ -51,7 +51,7 @@
  
 - GitHub
 
-⚙️ Project Architecture
+## ⚙️ Project Architecture
 ├── src/
 │   ├── components/
 │   │   ├── data_ingestion.py
@@ -70,7 +70,7 @@
 ├── requirements.txt
 └── README.md
 
-📊 Model Training
+## 📊 Model Training
 
 ### Models evaluated
 
@@ -93,11 +93,11 @@
 - Model training is performed offline using the training pipeline.
 The deployed Flask application loads pre-trained artifacts for prediction.
 
-🌐 Web Application
+## 🌐 Web Application
 
 - Users can input housing feature values through a web form, and the application predicts the estimated house price in real time.
 
-🚀 How to Run Locally
+## 🚀 How to Run Locally
 - git clone <repo-url>
 - cd house-price-prediction
 - python -m venv venv
@@ -105,7 +105,7 @@ The deployed Flask application loads pre-trained artifacts for prediction.
 - pip install -r requirements.txt
 - python application.py
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Add model explainability (SHAP / feature importance)
 
