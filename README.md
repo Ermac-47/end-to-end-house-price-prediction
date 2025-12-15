@@ -6,50 +6,50 @@
 
 🎯 Problem Statement
 
-Accurately estimating house prices is critical for buyers, sellers, and real estate analysts.
-This project aims to build a robust machine learning model that predicts housing prices using structured data and serves predictions through a user-friendly web interface.
+- Accurately estimating house prices is critical for buyers, sellers, and real estate analysts.
+- This project aims to build a robust machine learning model that predicts housing prices using structured data and serves predictions through a user-friendly web interface.
 
 🧠 Solution Approach
 
-Performed exploratory data analysis (EDA) on housing data
+- Performed exploratory data analysis (EDA) on housing data
 
-Built a modular data preprocessing pipeline
+- Built a modular data preprocessing pipeline
 
-Trained and evaluated multiple regression models
+- Trained and evaluated multiple regression models
 
-Selected the best-performing model based on evaluation metrics
+- Selected the best-performing model based on evaluation metrics
 
-Saved trained artifacts for inference
+- Saved trained artifacts for inference
 
-Deployed the prediction pipeline using Flask
+- Deployed the prediction pipeline using Flask
 
 🛠 Tech Stack
 
-Programming Language
+### Programming Language
 
-Python
+- Python
 
-Libraries
+### Libraries
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Scikit-learn
+- Scikit-learn
 
-CatBoost
+- CatBoost
 
-XGBoost
-
-Web Framework
-
-Flask
-
-Tools
-
-Git
-
-GitHub
+- XGBoost
+ 
+- Web Framework
+ 
+- Flask
+ 
+- Tools
+ 
+- Git
+ 
+- GitHub
 
 ⚙️ Project Architecture
 ├── src/
@@ -72,45 +72,45 @@ GitHub
 
 📊 Model Training
 
-Models evaluated
+### Models evaluated
 
-Linear Regression
+- Linear Regression
 
-Random Forest
+- Random Forest
 
-Gradient Boosting
+- Gradient Boosting
 
-XGBoost
+- XGBoost
 
-CatBoost
+- CatBoost
 
-Evaluation Metric
+### Evaluation Metric
 
-R² Score
+- R² Score
 
-The best-performing model was selected and saved for inference.
+- The best-performing model was selected and saved for inference.
 
-Model training is performed offline using the training pipeline.
+- Model training is performed offline using the training pipeline.
 The deployed Flask application loads pre-trained artifacts for prediction.
 
 🌐 Web Application
 
-Users can input housing feature values through a web form, and the application predicts the estimated house price in real time.
+- Users can input housing feature values through a web form, and the application predicts the estimated house price in real time.
 
 🚀 How to Run Locally
-git clone <repo-url>
-cd house-price-prediction
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python application.py
+- git clone <repo-url>
+- cd house-price-prediction
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- python application.py
 
 🔮 Future Improvements
 
-Add model explainability (SHAP / feature importance)
+- Add model explainability (SHAP / feature importance)
 
-Improve UI and input validation
+- Improve UI and input validation
 
-Dockerize the application
+- Dockerize the application
 
-Deploy on cloud platforms (AWS / Render / Railway)
+- Deploy on cloud platforms (AWS / Render / Railway)
