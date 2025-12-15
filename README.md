@@ -51,7 +51,9 @@
  
 - GitHub
 
-## ⚙️ Project Architecture
+## Project Architecture 
+
+⚙️ House_price_predictions
 ├── src/
 │   ├── components/
 │   │   ├── data_ingestion.py
