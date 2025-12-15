@@ -1,35 +1,55 @@
-#  🏠 End-to-End House Price Prediction Using Machine Learning
+# 🏠 End-to-End House Price Prediction Using Machine Learning
 📌 Project Overview
 
-This project is an end-to-end machine learning application that predicts house prices based on key housing and neighborhood features. It includes a complete ML pipeline—from data ingestion and preprocessing to model training, evaluation, and deployment using a Flask web application.
+- This project is an end-to-end machine learning application that predicts house prices based on key housing and neighborhood features.
+- It covers the entire ML lifecycle — from data ingestion and preprocessing to model training, evaluation, and deployment using a Flask web application.
 
 🎯 Problem Statement
 
-Accurately estimating house prices is critical for buyers, sellers, and real estate analysts. This project aims to build a machine learning model that predicts housing prices using structured data and serves predictions through a user-friendly web interface.
+Accurately estimating house prices is critical for buyers, sellers, and real estate analysts.
+This project aims to build a robust machine learning model that predicts housing prices using structured data and serves predictions through a user-friendly web interface.
 
 🧠 Solution Approach
 
-Performed exploratory data analysis on housing data
+Performed exploratory data analysis (EDA) on housing data
 
-Built a robust data preprocessing pipeline
+Built a modular data preprocessing pipeline
 
 Trained and evaluated multiple regression models
 
-Selected the best-performing model
+Selected the best-performing model based on evaluation metrics
 
 Saved trained artifacts for inference
 
-Deployed prediction pipeline using Flask
+Deployed the prediction pipeline using Flask
 
 🛠 Tech Stack
 
-Programming Language: Python
+Programming Language
 
-Libraries: Pandas, NumPy, Scikit-learn, CatBoost, XGBoost
+Python
 
-Web Framework: Flask
+Libraries
 
-Tools: Git, GitHub
+Pandas
+
+NumPy
+
+Scikit-learn
+
+CatBoost
+
+XGBoost
+
+Web Framework
+
+Flask
+
+Tools
+
+Git
+
+GitHub
 
 ⚙️ Project Architecture
 ├── src/
@@ -52,18 +72,30 @@ Tools: Git, GitHub
 
 📊 Model Training
 
-Models evaluated: Linear Regression, Random Forest, Gradient Boosting, XGBoost, CatBoost
+Models evaluated
 
-Evaluation metric: R² Score
+Linear Regression
 
-Best-performing model was selected and saved for inference
+Random Forest
+
+Gradient Boosting
+
+XGBoost
+
+CatBoost
+
+Evaluation Metric
+
+R² Score
+
+The best-performing model was selected and saved for inference.
 
 Model training is performed offline using the training pipeline.
-The deployed application loads pre-trained artifacts for prediction.
+The deployed Flask application loads pre-trained artifacts for prediction.
 
 🌐 Web Application
 
-Users can input housing feature values via a web form, and the application predicts the estimated house price in real time.
+Users can input housing feature values through a web form, and the application predicts the estimated house price in real time.
 
 🚀 How to Run Locally
 git clone <repo-url>
@@ -81,4 +113,4 @@ Improve UI and input validation
 
 Dockerize the application
 
-Deploy on cloud (AWS / Render / Railway)
+Deploy on cloud platforms (AWS / Render / Railway)
